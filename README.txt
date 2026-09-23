@@ -32,3 +32,6 @@ IDEAS FOR V2:
 - Search
 - Favorites
 - Analytics
+
+
+SEO update: sitemap.xml and robots.txt added; page titles, descriptions, canonical URLs and social metadata improved.
