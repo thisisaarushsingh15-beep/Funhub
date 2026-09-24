@@ -1,34 +1,31 @@
-FUNHUB V1 — QUICK START
+FUNHUB STAGE A — TEST BUILD
 
 Files:
 - index.html
 - games.html
 - generators.html
 - calculators.html
+- privacy.html
 - style.css
 - script.js
+- sitemap.xml
+- robots.txt
 
-Everything works as a static website. No database, server or paid service is required.
+STAGE A FEATURES:
+- Daily Challenge
+- Personal High Scores
+- Improved game flow
+- Fixed Memory Challenge answer checking
+- Existing generators and calculators preserved
+- Google Analytics measurement ID included
+- Privacy Policy included
 
-TO TEST:
-1. Keep all files in the same folder.
-2. Open index.html in a browser.
-
-TO PUBLISH:
-Upload all six files to a static host such as GitHub Pages, Cloudflare Pages or Vercel.
-Keep the file names unchanged.
+TESTING:
+1. Keep all files in the same folder/repository root.
+2. Publish the repository with GitHub Pages.
+3. Test every game, generator, calculator, navigation link and Privacy Policy link before moving anything to the live FunHub repository.
 
 IMPORTANT:
-- This version has no analytics or ads.
-- When you have a Google Analytics measurement ID, analytics can be added later.
-- Ad monetization can be considered after the site has useful content and traffic. If using Google AdSense while under 18, follow Google's current age/account rules and use a parent or guardian where required.
-
-IDEAS FOR V2:
-- Daily Challenge
-- More mini-games
-- More generators
-- More calculators
-- Share buttons
-- Search
-- Favorites
-- Analytics
+- This is a TEST repository. Its canonical URLs and sitemap point to the test GitHub Pages site.
+- Do not submit this test sitemap to the live FunHub Search Console property.
+- No database or server is required.
