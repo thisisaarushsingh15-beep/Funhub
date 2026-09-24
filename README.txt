@@ -1,31 +1,22 @@
-FUNHUB STAGE A — TEST BUILD
+FunHub Epic Simulation Test Build
 
-Files:
-- index.html
-- games.html
-- generators.html
-- calculators.html
-- privacy.html
-- style.css
-- script.js
-- sitemap.xml
-- robots.txt
+This is the live-site build for the main FunHub GitHub Pages repository.
 
-STAGE A FEATURES:
-- Daily Challenge
-- Personal High Scores
-- Improved game flow
-- Fixed Memory Challenge answer checking
-- Existing generators and calculators preserved
-- Google Analytics measurement ID included
-- Privacy Policy included
+New game architecture:
+- World Conquest: single-player grand-strategy campaign with a world-style map, provinces, AI expansion, economy, morale, industry, research, diplomacy, army management, pan/zoom and a full-screen command mode.
+- Pirate Empire: exploration/simulation game with an ocean map, ship movement, islands, discoveries, trading, crew, cargo, repairs, reputation and random events.
+- Precision AI Lab: fictional non-weapon AI calibration simulation with moving virtual targets, adaptive waves, combo scoring, energy and focus pulse.
+- Survival Outpost: defense simulation with a base, escalating creature waves, energy, scrap, repairs, barrier upgrades and perimeter interaction.
 
-TESTING:
-1. Keep all files in the same folder/repository root.
-2. Publish the repository with GitHub Pages.
-3. Test every game, generator, calculator, navigation link and Privacy Policy link before moving anything to the live FunHub repository.
+All four game pages are standalone HTML+JS experiences and include the required scripts in this package.
+
+Mobile design:
+- Game canvas occupies the available screen.
+- Controls are overlaid on the map.
+- Back and full-screen buttons are overlaid.
+- Full-screen depends on the browser allowing the user-gesture requestFullscreen API; if unavailable, use the browser's own full-screen/page controls.
 
 IMPORTANT:
-- This is a TEST repository. Its canonical URLs and sitemap point to the test GitHub Pages site.
-- Do not submit this test sitemap to the live FunHub Search Console property.
-- No database or server is required.
+- This package is prepared for the main FunHub site.
+- Do NOT upload it to the live funhub repository until every game is tested.
+- The test pages are intentionally independent of the old simple Stage B game engines.

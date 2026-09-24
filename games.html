@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Play quick, free browser games on FunHub, including a reaction test, number guessing game and memory challenge.">
+  <meta name="description" content="Play quick, free browser games on FunHub, including strategy, survival, precision, memory and reaction games.">
   <title>Free Online Games – FunHub</title>
-<link rel="canonical" href="https://thisisaarushsingh15-beep.github.io/funhub-stage-a/games.html">
+<link rel="canonical" href="https://thisisaarushsingh15-beep.github.io/Funhub/games.html">
 <meta property="og:title" content="Free Online Games – FunHub">
-<meta property="og:description" content="Play quick, free browser games on FunHub, including a reaction test, number guessing game and memory challenge.">
+<meta property="og:description" content="Play quick, free browser games on FunHub, including strategy, survival, precision, memory and reaction games.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://thisisaarushsingh15-beep.github.io/funhub-stage-a/games.html">
+<meta property="og:url" content="https://thisisaarushsingh15-beep.github.io/Funhub/games.html">
 <link rel="stylesheet" href="style.css">
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S3H3K12WE5"></script>
@@ -26,7 +26,7 @@
 </div></header>
 
 <main class="container page">
-<div class="page-heading"><span class="eyebrow">PLAY</span><h1>Games</h1><p>Short games you can play whenever you have a minute.</p></div>
+<div class="page-heading"><span class="eyebrow">PLAY</span><h1>Games</h1><p>Full browser games with maps, simulation systems, progression and replayable campaigns.</p></div>
 
 <section class="score-panel" aria-labelledby="scores-title">
   <div><span class="eyebrow">YOUR RECORDS</span><h2 id="scores-title">Personal High Scores</h2><p class="muted">Your best scores are saved on this device. No account needed.</p></div>
@@ -34,6 +34,10 @@
     <div class="score-item"><span>⚡ Reaction</span><strong id="score-reaction">—</strong></div>
     <div class="score-item"><span>🔢 Guessing</span><strong id="score-guess">—</strong></div>
     <div class="score-item"><span>🧠 Memory</span><strong id="score-memory">—</strong></div>
+    <div class="score-item"><span>🎯 Precision</span><strong id="score-precision">—</strong></div>
+    <div class="score-item"><span>🌎 Conquest</span><strong id="score-conquest">—</strong></div>
+    <div class="score-item"><span>🏴‍☠️ Pirate</span><strong id="score-pirate">—</strong></div>
+    <div class="score-item"><span>🧬 Survival</span><strong id="score-survival">—</strong></div>
   </div>
 </section>
 
@@ -63,7 +67,21 @@
   <input id="memory-input" class="hidden" type="text" inputmode="numeric" placeholder="Type the sequence">
   <p id="memory-result" class="result" aria-live="polite"></p>
 </article>
+
+
+<section class="stage-b-intro">
+  <span class="eyebrow">STAGE B</span>
+  <h2>More challenging games</h2>
+  <p class="muted">Longer, deeper browser games built for replayability. Your records stay on this device.</p>
 </section>
+
+<section class="game-grid stage-b-games">
+  <article class="app-card"><div class="app-top"><span class="tag">STRATEGY</span><span>🌎</span></div><h2>World Conquest</h2><p class="muted">A deep single-player grand-strategy campaign with a world map, provinces, economy, production, research, diplomacy, armies, morale and an adaptive AI.</p><a class="btn primary full" href="conquest.html">Enter campaign →</a></article>
+  <article class="app-card"><div class="app-top"><span class="tag">SIMULATION</span><span>🏴‍☠️</span></div><h2>Pirate Empire</h2><p class="muted">A naval exploration simulation with a living ocean, navigation, crew management, cargo, islands, trading, discoveries, weather and emergent events.</p><a class="btn primary full" href="pirate.html">Set sail →</a></article>
+  <article class="app-card"><div class="app-top"><span class="tag">AI RANGE</span><span>🎯</span></div><h2>Precision AI Range</h2><p class="muted">A futuristic AI calibration simulation with moving drones, precision zones, combos, energy management, adaptive patterns and cinematic feedback.</p><a class="btn primary full" href="precision.html">Enter simulation →</a></article>
+  <article class="app-card"><div class="app-top"><span class="tag">SURVIVAL</span><span>🧬</span></div><h2>Survival Outpost</h2><p class="muted">A full survival-defense simulation with a base, evolving creature waves, power management, barriers, repair decisions, upgrades and escalating events.</p><a class="btn primary full" href="survival.html">Defend outpost →</a></article>
+</section>
+
 </main>
 <footer><div class="container footer-wrap"><span>© 2026 FunHub</span><span>More games coming soon.</span><span><a href="privacy.html">Privacy Policy</a></span></div></footer>
 <script src="script.js"></script>
